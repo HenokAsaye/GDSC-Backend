@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Nodeblogs/Nodeblogs"
+		},
+		{
+			"path": "../image search"
+		},
+		{
+			"path": "../leetcode problems"
+		}
+	],
+	"settings": {}
+}
