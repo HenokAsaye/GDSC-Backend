@@ -3,20 +3,6 @@ const path = require('path');
 const readline = require('readline');
 
 const filepath = path.join(__dirname, 'command.txt');
-const lastProcessedFilePath = path.join(__dirname, 'lastProcessedLine.txt');
-
-function readLastProcessedLine() {
-    try {
-        const data = fs.readFileSync(lastProcessedFilePath, 'utf-8');
-        return parseInt(data, 10) || 0;
-    } catch (err) {
-        return 0;
-    }
-}
-
-function writeLastProcessedLine(lineNumber) {
-    fs.writeFileSync(lastProcessedFilePath, lineNumber.toString(), 'utf-8');
-}
 
 function processCommand(command) {
     const words = command.split(' ');
@@ -64,24 +50,14 @@ function processCommand(command) {
 }
 
 function readCommands() {
-    const lastProcessedCommand = readLastProcessedLine();
     const commandStream = fs.createReadStream(filepath);
     const rl = readline.createInterface({
         input: commandStream,
         crlfDelay: Infinity
     });
 
-    let currentLine = 0;
-
     rl.on('line', (line) => {
-        currentLine++;
-        if (currentLine > lastProcessedCommand) {
-            processCommand(line.trim());
-        }
-    });
-
-    rl.on('close', () => {
-        writeLastProcessedLine(currentLine);
+        processCommand(line.trim());
     });
 }
 
