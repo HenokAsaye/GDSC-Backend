@@ -1,0 +1,8 @@
+create a file hello.txt
+
+create a file lema.txt
+ create a file abebe.txt
+
+create a file negash.txt
+rename the file abebe.txt to new henok.txt
+delete the file henok.txt
