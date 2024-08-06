@@ -12,7 +12,7 @@ async function countLines(filepath) {
                 .on("data", (buffer) => {
                     let idx = -1;
                     do {
-                        idx = buffer.indexOf(10, idx + 1); // 10 is the ASCII code for newline
+                        idx = buffer.indexOf(10, idx + 1);
                         if (idx !== -1) lineCount++;
                     } while (idx !== -1);
                 })
