@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const { listeners } = require("process");
 
 let filepath = path.join(__dirname, "line.txt");
 let filepath2 = path.join(__dirname ,"2ndline.txt")
