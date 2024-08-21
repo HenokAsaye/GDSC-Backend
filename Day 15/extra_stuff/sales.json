@@ -1,0 +1,22 @@
+[
+  { "date": ISODate("2023-01-15T10:00:00Z"), "amount": 100, "product": "Product A" },
+  { "date": ISODate("2023-01-20T14:30:00Z"), "amount": 250, "product": "Product B" },
+  { "date": ISODate("2023-02-05T09:00:00Z"), "amount": 150, "product": "Product A" },
+  { "date": ISODate("2023-02-18T16:45:00Z"), "amount": 300, "product": "Product C" },
+  { "date": ISODate("2023-03-01T11:15:00Z"), "amount": 200, "product": "Product B" },
+  { "date": ISODate("2023-03-10T17:30:00Z"), "amount": 175, "product": "Product A" },
+  { "date": ISODate("2023-04-08T08:00:00Z"), "amount": 225, "product": "Product C" },
+  { "date": ISODate("2023-04-22T13:45:00Z"), "amount": 120, "product": "Product B" },
+  { "date": ISODate("2023-05-03T10:15:00Z"), "amount": 350, "product": "Product D" },
+  { "date": ISODate("2023-05-17T16:30:00Z"), "amount": 280, "product": "Product E" },
+  { "date": ISODate("2023-06-01T09:00:00Z"), "amount": 180, "product": "Product A" },
+  { "date": ISODate("2023-06-15T14:45:00Z"), "amount": 210, "product": "Product C" },
+  { "date": ISODate("2022-12-28T12:00:00Z"), "amount": 190, "product": "Product A" },
+  { "date": ISODate("2022-12-30T18:30:00Z"), "amount": 260, "product": "Product B" },
+  { "date": ISODate("2023-01-05T10:00:00Z"), "amount": 110, "product": "Product C" },
+  { "date": ISODate("2023-01-12T14:30:00Z"), "amount": 240, "product": "Product D" },
+  { "date": ISODate("2022-11-15T15:00:00Z"), "amount": 130, "product": "Product E" },
+  { "date": ISODate("2022-11-29T11:30:00Z"), "amount": 270, "product": "Product A" },
+  { "date": ISODate("2022-12-06T17:00:00Z"), "amount": 160, "product": "Product C" },
+  { "date": ISODate("2022-12-20T13:45:00Z"), "amount": 290, "product": "Product B" }
+]
